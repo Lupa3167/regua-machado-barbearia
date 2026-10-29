@@ -36,7 +36,7 @@ Apoiar a rotina de uma barbearia por meio de cadastro de clientes, agendamento d
 1. Instale o XAMPP e inicie **Apache** e **MySQL** no painel.
 2. Copie os arquivos deste repositório para `C:\xampp\htdocs\regua-machado-dev\`. Mantenha os PHP/HTML na raiz dessa pasta.
 3. Abra `http://localhost/phpmyadmin/`.
-4. Para uma **instalação limpa**, use a aba **SQL** do phpMyAdmin para executar `sql/Database.sql` em um ambiente sem tabelas anteriores do projeto. O script cria o banco `forja_corte_dev`, as seis tabelas e os cadastros iniciais de seis profissionais e seis serviços.
+4. Para uma **instalação limpa**, use a aba **SQL** do phpMyAdmin para executar `Database.sql` em um ambiente sem tabelas anteriores do projeto. O script cria o banco `forja_corte_dev`, as seis tabelas e os cadastros iniciais de seis profissionais e seis serviços.
 5. Confira a conexão em `Config.php`: host `localhost`, banco `forja_corte_dev`, usuário e senha de seu ambiente local. A configuração incluída é apenas para o XAMPP local de desenvolvimento.
 6. Abra `http://localhost/regua-machado-dev/`.
 
@@ -64,11 +64,11 @@ Apoiar a rotina de uma barbearia por meio de cadastro de clientes, agendamento d
 | `Coresatt.php` | Agenda e status |
 | `Caixa.php` | Movimentações financeiras |
 | `Config.php` | Conexão e consultas auxiliares |
-| `sql/Database.sql` | Criação do banco para instalação limpa |
+| `Database.sql` | Criação do banco para instalação limpa |
 
 ## Exemplos de funcionamento
 
-**PENDENTE ANTES DA ENTREGA:** inserir capturas de tela reais, sem dados pessoais, na pasta `docs/imagens/`, e adicionar as imagens aqui. Sugestões: menu principal, cadastro/agendamento, agenda e caixa.
+O funcionamento pode ser demonstrado no vídeo entregue pelo Teams ou por link externo. Capturas de tela podem ser adicionadas futuramente para apresentação no portfólio.
 
 ## Testes e limitações
 
@@ -76,7 +76,7 @@ Foram realizados testes manuais no XAMPP de cadastro, múltiplos serviços, conf
 
 ## Vídeo de apresentação
 
-**PENDENTE:** inserir aqui o link do vídeo após a gravação. Todos os integrantes devem participar, com câmera aberta em suas respectivas apresentações, conforme a orientação do professor.
+A gravação de apresentação será entregue separadamente pelo Teams ou por link, conforme orientações do professor. Todos os integrantes devem participar com câmera aberta durante suas respectivas falas.
 
 ## Contexto acadêmico
 
