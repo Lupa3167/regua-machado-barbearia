@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Régua & Machado  Barbearia</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero-section {
+      background: linear-gradient(135deg, #6f42c1, #8b5fe4);
+      color: white;
+      padding: 60px 0;
+      text-align: center;
+    }
+    .menu-card {
+      border: none;
+      transition: transform 0.3s;
+      margin-bottom: 20px;
+      border-left: 4px solid #6f42c1;
+    }
+    .menu-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(111, 66, 193, 0.3);
+    }
+    .btn-roxo {
+      background-color: #6f42c1;
+      border-color: #6f42c1;
+      color: white;
+    }
+    .btn-roxo:hover {
+      background-color: #5a34a3;
+      border-color: #5a34a3;
+    }
+    .bg-roxo { 
+      background-color: #6f42c1 !important; 
+    }
+  </style>
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <div class="hero-section">
+    <div class="container">
+      <h1>Régua & Machado  Barbearia</h1>
+      <p class="lead">Protótipo acadêmico de gestão de barbearia</p>
+    </div>
+  </div>
+
+  <!-- Menu Principal -->
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card menu-card">
+          <div class="card-body text-center">
+            <h5 class="card-title">📅 Agenda</h5>
+            <p class="card-text">Visualize a agenda dos profissionais em tempo real</p>
+            <a href="Coresatt.php" class="btn btn-roxo">Acessar Agenda</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card menu-card">
+          <div class="card-body text-center">
+            <h5 class="card-title">✂️ Agendamento</h5>
+            <p class="card-text">Faça novos agendamentos de serviços</p>
+            <a href="Agendamento.php" class="btn btn-roxo">Novo Agendamento</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card menu-card">
+          <div class="card-body text-center">
+            <h5 class="card-title">💰 Caixa</h5>
+            <p class="card-text">Controle financeiro e movimentações</p>
+            <a href="Caixa.php" class="btn btn-roxo">Abrir Caixa</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-light text-center py-3 mt-5">
+    <div class="container">
+      <p class="text-muted mb-0">Régua &amp; Machado — Protótipo acadêmico · versão consolidada 21/10/2026</p>
+    </div>
+  </footer>
+</body>
+</html>
