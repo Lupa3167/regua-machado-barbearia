@@ -1,16 +1,17 @@
 # Checklist da entrega final — PIC I
 
-Prazo informado: **23/11/2026, 23h59**.
+**Prazo: 23/11/2026, 23h59.**
 
-- [ ] Substituir os nomes fictícios/marcadores pelos **nomes reais de todos os integrantes** no README.
-- [ ] Conferir no computador de outro integrante a instalação limpa (`sql/Database.sql`).
-- [ ] Adicionar capturas reais do sistema em `docs/imagens/` e links no README.
-- [ ] Publicar este conteúdo em um repositório GitHub acessível ao professor.
-- [ ] Abrir o link em uma janela anônima para testar acesso, se público.
-- [ ] Confirmar que não há dados pessoais, senhas nem backups indevidos publicados.
-- [ ] Gravar vídeo com todos os integrantes e câmeras abertas durante suas falas.
-- [ ] Colocar link do vídeo no README, se pertinente.
-- [ ] Entregar o ZIP completo na atividade/Guia Tarefas (Teams), link do GitHub e vídeo.
-- [ ] Conferir se os envios aparecem como concluídos antes de 23/11/2026, 23h59.
+- [x] Publicar código PHP, HTML e SQL de instalação limpa no GitHub público.
+- [x] Identificar integrantes no README conforme termo do projeto.
+- [x] Documentar objetivo, tecnologias, funcionalidades e instalação.
+- [x] Evitar publicação do backup com cadastros e movimentos de caixa.
+- [ ] Confirmar integrantes e suas contribuições com o grupo.
+- [ ] Testar instalação limpa do repositório em outro computador.
+- [ ] Gravar vídeo com todos os integrantes e câmeras abertas durante suas apresentações.
+- [ ] Entregar o ZIP completo, link público do GitHub e vídeo na atividade do Teams.
+- [ ] Conferir a confirmação dos envios antes do prazo.
 
-**Atenção:** o ZIP original congelado contém uma exportação de dados de teste; este pacote de GitHub contém somente o SQL para instalação limpa. Não confunda os dois.
+**Opcional:** adicionar capturas de tela ao README para melhorar a apresentação no LinkedIn.
+
+**Observação:** o ZIP congelado da entrega acadêmica e o repositório público não são idênticos: o repositório contém apenas `Database.sql` para instalação limpa, sem o backup com registros de teste.
